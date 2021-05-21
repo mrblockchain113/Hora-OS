@@ -61,6 +61,7 @@ html, body {
 nav{
 	/* background: -webkit-linear-gradient(-225deg, #105CA4 0%, #15CCF4 48%, #15CCF4 100%); */
     background-image: url('images/Path\ 761.png');
+    background-size: cover;
 	position: absolute;
     margin-bottom: -75px;
 }
