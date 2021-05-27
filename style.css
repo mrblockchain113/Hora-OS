@@ -290,11 +290,11 @@ p#sub_title span{
 /*footer widgets*/
 .btn_content {
     background-color:#31B2EA;
-    width: 180px;
+    width: 110px;
     border-radius: 10px;
     font-size: 16px;
     color:white;
-    padding: 20px;
+    padding: 5px;
     margin-top:20px
 }
 .btn_content:hover {
