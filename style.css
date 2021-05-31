@@ -13,7 +13,25 @@ html, body {
     top: 0;
     left: 0;
   }
-   
+  iframe{
+    width: 100%;
+    height: calc((100vw*9) /16);
+  } 
+  .banner-video{
+    height: 100vh;
+    overflow: hidden;
+  }
+  @media (max-aspect-ratio: 16/9) {
+    .banner-video{
+      width: 100%;
+      overflow: hidden;
+    }
+
+    iframe{
+      width: calc((100vh*16)/9);
+      height: 100vh;
+      }
+  }  
 @font-face{
     font-family: Seogue UI;
 	src:url('font/Segoe\ UI.woff');
