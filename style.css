@@ -511,11 +511,12 @@ p#sub_title span{
     -moz-border-radius: 25px;
     -webkit-border-radius: 25px;
     position: fixed;
-    top: 20%; left: 30%;
+    top: 20%; left: 35%;
     z-index: 9999;
 }
 .popup_submit{
 	background-color: #3490ad;
+    color:white;
 	width: 100px;
 	font-weight: bold;
 	
@@ -583,7 +584,7 @@ p#sub_title span{
   
   /* The Close Button */
   .close {
-	color: #aaaaaa;
+	color: white;
 	float: right;
 	font-size: 28px;
 	font-weight: bold;
@@ -591,7 +592,7 @@ p#sub_title span{
   
   .close:hover,
   .close:focus {
-	color: #000;
+	color: white;
 	text-decoration: none;
 	cursor: pointer;
   }
